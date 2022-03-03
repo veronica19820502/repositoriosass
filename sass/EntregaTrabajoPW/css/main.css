@@ -1,0 +1,87 @@
+@charset "UTF-8";
+header {
+  background-image: url("../imgs/84270179-mujer-dibujo-ecommerce-concepto-de-compras-en-línea-en-el-bloc-de-notas.png");
+  background-attachment: fixed;
+  background-color: #f5f5f5;
+  background-image: linear-gradient(#f5f5f5, #e5e5); }
+
+* {
+  margin: 1%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  background-color: tan;
+  background-image: radial-gradient(tan, darkseagreen); }
+
+div {
+  background-color: antiquewhite;
+  height: 200px; }
+  div p {
+    font-size: 20px; }
+
+.main {
+  width: 90%;
+  margin: 0 auto; }
+
+h1 {
+  color: blueviolet;
+  font-weight: 100;
+  text-align: center; }
+
+p {
+  color: cornflowerblue; }
+
+footer {
+  color: fuchsia; }
+
+.Cont {
+  color: darkseagreen; }
+
+.borde-rend {
+  border-radius: 16px; }
+
+#section-1 {
+  background-color: indigo; }
+
+nav ul {
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.inter {
+  line-height: 2;
+  font-family: serif; }
+
+.card {
+  height: 200px;
+  width: 250px;
+  border: 2px solid darkblue;
+  background-color: lightsteelblue;
+  margin-left: 50px;
+  padding-left: 30px;
+  overflow: hidden; }
+  .card .card__body img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px; }
+
+.Cont {
+  height: auto; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 100px;
+  column-gap: 5px;
+  row-gap: 5px; }
+
+.grid div {
+  border: 1px solid blue; }
+
+h4 {
+  color: blueviolet;
+  font-weight: 100;
+  text-align: center; }
+
+footer {
+  color: fuchsia; }
